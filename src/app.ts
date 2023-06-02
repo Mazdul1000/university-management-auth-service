@@ -1,10 +1,10 @@
-import express, { Request, Response } from 'express'
+import express, { Application, Request, Response } from 'express'
 import cors from 'cors'
 
 import usersService from './app/modules/user/users.service'
 import userRouter from './app/modules/user/users.route'
 
-const app = express()
+const app: Application = express()
 
 // useing cors
 app.use(cors())
