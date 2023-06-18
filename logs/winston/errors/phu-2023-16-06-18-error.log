@@ -1,0 +1,9 @@
+[Fri Jun 16 2023 18:34:6] [PH] error: Invalid semester code
+[Fri Jun 16 2023 18:34:44] [PH] error: Invalid semester code
+[Fri Jun 16 2023 18:36:41] [PH] error: Semester is already exist in same the year
+[Fri Jun 16 2023 18:37:7] [PH] error: Semester is already exist in same the year
+[Fri Jun 16 2023 18:38:33] [PH] error: $regex has to be a string
+[Fri Jun 16 2023 18:39:19] [PH] error: $regex has to be a string
+[Fri Jun 16 2023 18:42:36] [PH] error: $regex has to be a string
+[Fri Jun 16 2023 18:43:28] [PH] error: $regex has to be a string
+[Fri Jun 16 2023 18:53:16] [PH] error: Can't use $option with String.
