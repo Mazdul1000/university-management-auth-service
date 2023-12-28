@@ -1,6 +1,0 @@
-[Sat Jun 17 2023 15:0:48] [PH] error: Semester is already exist in same the year
-[Sat Jun 17 2023 15:6:9] [PH] error: Semester is already exist in same the year
-[Sat Jun 17 2023 15:43:2] [PH] error: Semester is already exist in same the year
-[Sat Jun 17 2023 15:55:12] [PH] error: Semester is already exist in same the year
-[Sat Jun 17 2023 15:58:18] [PH] error: Cast to ObjectId failed for value "648c585f81b6d62bfdc57127sds" (type string) at path "_id" for model "AcademicSemester"
-[Sat Jun 17 2023 15:59:54] [PH] error: Channel closed

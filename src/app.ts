@@ -1,7 +1,9 @@
 import cors from 'cors';
 import express, { Application, NextFunction, Request, Response } from 'express';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
+// import { generateStudentId } from './app/modules/user/user.utils';
 import routes from './app/routes';
+// import { generateFacultyId } from './app/modules/user/user.utils';
 
 const app: Application = express();
 
