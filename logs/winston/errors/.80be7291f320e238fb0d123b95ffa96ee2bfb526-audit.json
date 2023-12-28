@@ -1,0 +1,55 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/mazdul/Documents/Projects/PH lvl-2/Projects/University Management/university-management-auth-service/logs/winston/errors/.80be7291f320e238fb0d123b95ffa96ee2bfb526-audit.json",
+    "files": [
+        {
+            "date": 1687682791738,
+            "name": "/Users/mazdul/Documents/Projects/PH lvl-2/Projects/University Management/university-management-auth-service/logs/winston/errors/phu-2023-25-06-14-error.log",
+            "hash": "39e81b4e672664a7aaebfbc31810b1d77657fcba3f14f09f4c63c0fd0c395d04"
+        },
+        {
+            "date": 1687754286609,
+            "name": "/Users/mazdul/Documents/Projects/PH lvl-2/Projects/University Management/university-management-auth-service/logs/winston/errors/phu-2023-26-06-10-error.log",
+            "hash": "918edf6ec9b11ea5235e92703a56fd2629fc9b2b7e72fb5c5364d63872325a05"
+        },
+        {
+            "date": 1687755601485,
+            "name": "/Users/mazdul/Documents/Projects/PH lvl-2/Projects/University Management/university-management-auth-service/logs/winston/errors/phu-2023-26-06-11-error.log",
+            "hash": "101850bd6fa996656ee1e173471896e0184ef61af7e4e82d65e797e6528bdf4c"
+        },
+        {
+            "date": 1687759284067,
+            "name": "/Users/mazdul/Documents/Projects/PH lvl-2/Projects/University Management/university-management-auth-service/logs/winston/errors/phu-2023-26-06-12-error.log",
+            "hash": "744a6c84a686e454e9cc71f632da22fbd2247f5105a86d6dd15a14b203ac1c47"
+        },
+        {
+            "date": 1687772045234,
+            "name": "/Users/mazdul/Documents/Projects/PH lvl-2/Projects/University Management/university-management-auth-service/logs/winston/errors/phu-2023-26-06-15-error.log",
+            "hash": "742f4ee17ae394e3e37156cc6d55ff8da8810c96470aa3faed9644c2470f3471"
+        },
+        {
+            "date": 1687774589307,
+            "name": "/Users/mazdul/Documents/Projects/PH lvl-2/Projects/University Management/university-management-auth-service/logs/winston/errors/phu-2023-26-06-16-error.log",
+            "hash": "6ee0a4942b1277871e3331bbeb03822ab42da4d85a02be12ab7f529a300ae9eb"
+        },
+        {
+            "date": 1688180263353,
+            "name": "/Users/mazdul/Documents/Projects/PH lvl-2/Projects/University Management/university-management-auth-service/logs/winston/errors/phu-2023-01-07-08-error.log",
+            "hash": "7765e32c516f8774b344534e597bbdf7f9ef7e44a3b00ee8f1cfbba7d113837c"
+        },
+        {
+            "date": 1688180444172,
+            "name": "/Users/mazdul/Documents/Projects/PH lvl-2/Projects/University Management/university-management-auth-service/logs/winston/errors/phu-2023-01-07-09-error.log",
+            "hash": "d5142e168fd33725af7bfc025fb0b171fab7cec34ac5028a12c9fd5bd88fb90d"
+        },
+        {
+            "date": 1688873794613,
+            "name": "/Users/mazdul/Documents/Projects/PH lvl-2/Projects/University Management/university-management-auth-service/logs/winston/errors/phu-2023-09-07-09-error.log",
+            "hash": "f2a3bbdf5f3ab833d84f39f3c3e38a281a5d2d681e97c5a63479dab06a0ac028"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,17 +1,48 @@
-import express, { Request, Response } from 'express'
-import cors from 'cors'
+import cors from 'cors';
+import express, { Application, NextFunction, Request, Response } from 'express';
+import globalErrorHandler from './app/middlewares/globalErrorHandler';
+// import { generateStudentId } from './app/modules/user/user.utils';
+import routes from './app/routes';
+// import { generateFacultyId } from './app/modules/user/user.utils';
 
-const app = express()
+const app: Application = express();
 
 // useing cors
-app.use(cors())
+app.use(cors());
+
+// eslint-disable-next-line no-console
+console.log(app.get('env'));
 
 // useing parser
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.get('/', (req: Request, res: Response) => {
-  res.send('Whooa!, Our server is up! 🔥🔥')
-})
+// routes
+app.use('/api/v1', routes);
 
-export default app
+// test route
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   //  throw new ApiError(401, "Ore Baba Error")
+// });
+
+// Global error handler
+app.use(globalErrorHandler);
+
+// handle not found route
+app.use((req: Request, res: Response, next: NextFunction) => {
+  res.status(404).json({
+    statusCode: 404,
+    status: false,
+    message: 'Not Found',
+    errorMessages: [
+      {
+        path: req.originalUrl,
+        message: 'Api not found',
+      },
+    ],
+  });
+  next();
+});
+
+export default app;
